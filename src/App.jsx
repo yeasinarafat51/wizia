@@ -1,3 +1,4 @@
+import HeroSection from "./components/HeroSection"
 import NavbarArea from "./shared/Navbar"
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <div>
     <NavbarArea/>
+    <HeroSection/>
     </div>
    </>
     

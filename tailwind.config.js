@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         "Work Sans":['"Work Sans"', "sans-serif"],
-        "Roboto":['"Roboto"', "sans-serif"],
+        "Montserrat":['"Montserrat"', "sans-serif"],
         "Bebas Neue":['"Bebas Neue"', "sans-serif"],
       },
       colors: {
