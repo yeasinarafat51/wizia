@@ -1,7 +1,10 @@
+// import Button from "./common/Button"
+import Buttonx from "./common/Button"
 import Allocate from "./components/Allocate"
 import Card from "./components/Card"
 import Carousel from "./components/Carousel"
 import Control from "./components/Control"
+import Embarce from "./components/Embarce"
 import HeroSection from "./components/HeroSection"
 import Partners from "./components/Partners"
 import Train from "./components/Train"
@@ -26,7 +29,9 @@ function App() {
    <Carousel/>
    </div>
    <Allocate/>
+   <Embarce/>
    {/* <Card/> */}
+   {/* <Buttonx/> */}
     </div>
    </>
     
