@@ -13,12 +13,12 @@ const Allocate = () => {
                 <p className="text-[14px] font-[300px] text-[#E9EEF1] font-Montserrat text-start">Improvement in Open Rates</p>
             </div>
             <div className="w-[174px]">
-                <p className="text-[120x] font-bold text-primary font-Montserrat text-start">32%</p>
-                <p className="text-[14px] font-[300px] text-[#E9EEF1] font-Montserrat text-start">Improvement in Open Rates</p>
+                <p className="text-[120x] font-bold text-primary font-Montserrat text-start">75%</p>
+                <p className="text-[14px] font-[300px] text-[#E9EEF1] font-Montserrat text-start">Improvement in Ramp Time</p>
             </div>
             <div className="w-[174px]">
-                <p className="text-[120x] font-bold text-primary font-Montserrat text-start">32%</p>
-                <p className="text-[14px] font-[300px] text-[#E9EEF1] font-Montserrat text-start">Improvement in Open Rates</p>
+                <p className="text-[120x] font-bold text-primary font-Montserrat text-start">35%</p>
+                <p className="text-[14px] font-[300px] text-[#E9EEF1] font-Montserrat text-start">Improvement in Meetings Booked</p>
             </div>
         </div>
       </div>
