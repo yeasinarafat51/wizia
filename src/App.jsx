@@ -8,6 +8,7 @@ import Embarce from "./components/Embarce"
 import HeroSection from "./components/HeroSection"
 import Partners from "./components/Partners"
 import Train from "./components/Train"
+import Footer from "./shared/Footer"
 import NavbarArea from "./shared/Navbar"
 
 
@@ -32,6 +33,7 @@ function App() {
    <Embarce/>
    {/* <Card/> */}
    {/* <Buttonx/> */}
+   <Footer/>
     </div>
    </>
     
