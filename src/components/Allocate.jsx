@@ -2,7 +2,7 @@
 
 const Allocate = () => {
   return (
-    <div className="max-w-[1344px] border-2 shadow-lg border-[#07292F] md:mx-20 py-8 my-16">
+    <div className="max-w-[1344px] border-2 shadow-lg border-[#07292F] md:mx-20 py-8 my-16 hover:bg-warning-foreground">
       <div className="md:w-[582px] w-full text-center md:mx-auto ">
         <p className="text-[32px] w-full font-[600px] text-white font-Montserrat">Allocate effort where your reps make an inpact.</p>
         <p className="text-[32px] font-[500px] text-primary font-Montserrat italic">Let us handle the rest.</p>
