@@ -1,3 +1,4 @@
+import Allocate from "./components/Allocate"
 import Card from "./components/Card"
 import Carousel from "./components/Carousel"
 import Control from "./components/Control"
@@ -24,6 +25,7 @@ function App() {
    <div className="my-8">
    <Carousel/>
    </div>
+   <Allocate/>
    {/* <Card/> */}
     </div>
    </>
