@@ -1,3 +1,4 @@
+import Card from "./components/Card"
 import Carousel from "./components/Carousel"
 import Control from "./components/Control"
 import HeroSection from "./components/HeroSection"
@@ -20,6 +21,10 @@ function App() {
    </div>
    <Control/>
    <Train/>
+   <div className="my-8">
+   <Carousel/>
+   </div>
+   {/* <Card/> */}
     </div>
    </>
     

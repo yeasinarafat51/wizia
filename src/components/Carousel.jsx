@@ -1,4 +1,8 @@
 import { useState } from "react";
+import Card from "./Card";
+import navi from '../images/Navigation.png'
+import vec1 from '../images/Vector1.png'
+import vec2 from '../images/Vector2.png'
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,40 +22,33 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto">
+    <div className="relative w-full max-w-4xl mx-auto my-8">
       {/* Slides */}
       <div className="overflow-hidden relative">
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-          {slides.map((slide) => (
-            <img
-              key={slide.id}
-              src={slide.url}
-              alt={`Slide ${slide.id}`}
-              className="w-full flex-shrink-0"
-            />
-          ))}
+         <Card/>
         </div>
       </div>
 
       {/* Controls */}
       <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700"
+        className="hidden md:block absolute top-1/2 -left-16 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700"
         onClick={handlePrev}
       >
-        ❮
+        <img src={vec1} alt="" />
       </button>
       <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700"
+        className="hidden md:block absolute top-1/2 -right-16 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700"
         onClick={handleNext}
       >
-        ❯
+        <img src={vec2} alt="" />
       </button>
 
       {/* Indicators */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className=" absolute -bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {slides.map((_, index) => (
           <button
             key={index}
