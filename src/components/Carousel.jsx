@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
-import navi from '../images/Navigation.png'
+
 import vec1 from '../images/Vector1.png'
 import vec2 from '../images/Vector2.png'
 
@@ -22,6 +22,7 @@ const Carousel = () => {
   };
 
   return (
+    <>
     <div className="relative w-full max-w-4xl mx-auto my-8">
       {/* Slides */}
       <div className="overflow-hidden relative">
@@ -29,7 +30,13 @@ const Carousel = () => {
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-         <Card/>
+        {
+            slides.map(slide=>(
+                <div className="w-full flex-shrink-0" key={slide.id}>
+                     <Card/>
+                </div>
+            ))
+        }
         </div>
       </div>
 
@@ -60,6 +67,8 @@ const Carousel = () => {
         ))}
       </div>
     </div>
+    
+    </>
   );
 };
 
