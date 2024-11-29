@@ -11,7 +11,7 @@ export default {
       fontFamily: {
         "Work Sans":['"Work Sans"', "sans-serif"],
         "Montserrat":['"Montserrat"', "sans-serif"],
-       
+        "Bebas Neue":['"Bebas Neue"', "sans-serif"],
       },
       colors: {
         primary: "#0FF1F6",
